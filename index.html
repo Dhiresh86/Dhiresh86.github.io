@@ -11,6 +11,18 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
 <body class="w3-light-grey">
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="bookmarkscroll.js">
+
+/***********************************************
+* Scrolling HTML bookmarks- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Please keep this notice intact
+* Visit Project Page at http://www.dynamicdrive.com for full source code
+***********************************************/
+
+</script>
+
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
@@ -32,8 +44,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Hardware Hacker - Drone Enthusiast - Perfectionist </p>
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, UK</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>dhiresh.nathwani@ldeutc.co.uk</p>
-          <p><i class="fa fa-book fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="portfolio.html">Portfolio</a></p>
-          <p><i class="fa fa-users fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="event.html">Events</a></p>
+          <p><i class="fa fa-book fa-fw w3-margin-right w3-large w3-text-teal page-scroll"></i><a href="#portfolio">Portfolio</a></p>
+          <p><i class="fa fa-users fa-fw w3-margin-right w3-large w3-text-teal "></i><a href="event.html">Events</a></p>
+          <p><i class="fa fa-handshake-o fa-fw w3-margin-right w3-large w3-text-teal "></i><a href="#Recommendations">Recommendations</a></p>
           <hr>
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
@@ -64,20 +77,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
           </div>
           <br>
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>Gujarati</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:45%"></div>
-          </div>
-          <p>French</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:15%"></div>
-          </div>
           <br>
         </div>
       </div><br>
@@ -89,14 +88,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <div class="w3-twothird">
 
 
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Portfolio</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b><a href="portfolio.html">Click here to check out my portfolio full of awesome projects</a></b></h5>
-        </div>
-      </div>
 
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
+
+
+      <div  class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-building fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Workshop Leader</b></h5>
@@ -122,11 +117,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             I helped kids work on the computers and directly communicated with them about programming and how it can help them in the future with different jobs.</p><br>
         </div>
       </div>
-
+<section id="Recommendations">
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-address-book fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Recommendations</h2>
 
         <div class="w3-container">
+          <img width="187px" height="237px" src="images/mark.png" >
           <h5 class="w3-opacity"><b>Mark Watson</b></h5>
           <h6 class="w3-text-teal">Director of Technical Curriculumn Engineering at London Design and Engineering UTC</h6>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 30th 2018</h6>
@@ -154,6 +150,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         </div>
 
         <div class="w3-container">
+          <img width="187px" height="237px" src="images/ian.jpeg">
           <h5 class="w3-opacity"><b>Ian J Pearson</b></h5>
           <h6 class="w3-text-teal">Leadership, Science teaching, Technology in Education, Change Management</h6>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>January 29th 2018</h6>
@@ -166,18 +163,20 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <hr>
         </div>
         <div class="w3-container">
+          <img width="187px" height="237px" src="images/dee.png">
           <h5 class="w3-opacity"><b>Dee Saigal</b></h5>
           <h6 class="w3-text-teal">CEO / Creative Director at Erase All Kittens</h6>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>January 3rd 2018</h6>
-          <p>I have known Dhiresh for several years, as he has worked with us at many events including Mozilla's Mozfest,
+          <p>"I have known Dhiresh for several years, as he has worked with us at many events including Mozilla's Mozfest,
             the world's leading festival for the open Internet movement, and the Web We Want Festival, based in London.
             Dhiresh led workshops with young students, assisting in their code education and helping with the setup.
             He has also done some marketing for our company, outside of these events.
             Dhiresh is a person of great integrity - he is extremely dedicated to his work, and has a great attitude and outlook.
-            He would be a prized asset to any employer lucky enough to have him on their team. </p>
+            He would be a prized asset to any employer lucky enough to have him on their team."</p>
           <hr>
         </div>
       </div>
+    </section>
 
       <div class="w3-container w3-card w3-white">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
